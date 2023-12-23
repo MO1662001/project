@@ -408,3 +408,86 @@ header {
   transform: scale(1.03);
   transition: all 1s ease;
 }
+
+
+.sup{
+  background: #670303;
+}
+
+.price-package .title-p{
+ font-size: 15px;
+ line-height: 20px;
+ color:#222222;
+ margin:0;
+ text-align: center;
+ padding:0 -20% 50px;
+ font-family: 'Open-sans', sans-serif;
+}
+
+.price-package .content{
+	-webkit-display: flex;
+	display: flex;
+}
+.price-package .content .box{
+	flex:0 0 33.30%;
+	max-width: 40.50%;
+	padding: 40px;
+  padding-top: 40%;
+  height: 300px;
+  width: 420px;
+  
+}
+.price-package .content .box .inner{
+	background-color: #0f0e0e;
+}
+.price-package .content .box .inner .price-tag{
+	padding: 15px;
+	font-size: 20px;
+	background-color: #f3eaea;
+	color:#0c0c0c;
+	text-align: center;
+	font-weight: 700;
+}
+.price-package .content .box .inner .text{
+	padding:30px 15px;
+	text-align: center;
+}
+.price-package .content .box .inner .text h3{
+	font-size: 24px;
+	color:#f0eaea;
+	margin:0;
+	padding:0px 0px 20px;
+	font-weight: 700;
+}
+.price-package .content .box .inner .text p{
+ font-size: 15px;
+ line-height: 20px;
+ color:#f0ecec;
+ margin:0;
+ text-align: center;
+ padding:0 0 5px;
+ font-family: 'Open-sans', sans-serif;	
+}
+.price-package .content .box .inner .text .btn{
+    padding: 8px 30px;
+    background-color: #c11325;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid transparent;
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    margin-top: 10px;
+    
+}
+.price-package .content .box .inner .text .btn:hover{
+	border-color:#f4efef;
+	color:#f5f1f1;
+	background-color: transparent;
+  
+}
+.price-package .content .box .inner .img img{
+	width: 100%;
+}
+
