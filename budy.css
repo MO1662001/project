@@ -414,6 +414,7 @@ header {
   background: #670303;
 }
 
+
 .price-package .title-p{
  font-size: 15px;
  line-height: 20px;
@@ -456,6 +457,7 @@ header {
 	text-align: center;
   border-radius: 10px;
 }
+
 .price-package .content .box .inner .text h3{
 	font-size: 24px;
 	color:#f2eded;
