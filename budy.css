@@ -508,14 +508,14 @@ header {
   flex-wrap: wrap;
   gap: 80px;
   align-items: center;
-  margin-top: 25%;
+  margin-top: 195%;
 }
 .pp {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 370px;
-  height: 250px;
+  
 }
 
 .carrd-image {
@@ -536,6 +536,13 @@ header {
   margin-left: -5%;
   margin-right: -10%;
   }
+
+  .bild .kk{
+    height: 180px;
+    width: 300px;
+    border-radius: 25px;
+  }
+
 
 
 
