@@ -299,6 +299,9 @@ header {
   width: 370px;
   height: 250px;
 }
+.pp .jj{
+  border-radius: 35px;
+}
 
 
 .kk {
@@ -355,13 +358,18 @@ header {
   justify-content: center;
   flex-wrap: wrap;
 }
+.zz{
+  padding-top: 20%;
+  margin: 10%;
+  color: #fff;
+}
 
 .card {
   background: #ffffff;
   width: 320px;
   margin: 20px;
   border-radius: 15px;
-  margin-top: 15%;
+  margin-top: 0%;
 }
 
 .card-image {
@@ -510,6 +518,13 @@ header {
   align-items: center;
   margin-top: 195%;
 }
+
+ .nn{
+  margin-top: 240%;
+}
+.nd{
+  margin-top: 175%;
+}
 .pp {
   display: flex;
   justify-content: center;
@@ -542,6 +557,51 @@ header {
     width: 300px;
     border-radius: 25px;
   }
+
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  }
+  ul{
+    list-style: none;
+    text-align: center;
+  }
+
+  ul li{
+    display: inline-block;
+    position: relative;
+  }
+
+  ul li a {
+    display: block;
+   padding: 0px 0px;
+   font-size: 18px;
+   
+   color: #fff;
+   text-decoration: none;
+   text-align: center; 
+  }
+
+  ul li ul.dropdown li {
+   display: block;
+    
+    margin: 6px 0px;
+  }
+
+  ul li ul.dropdown{
+    width: auto;
+    
+    position: absolute;
+    z-index: 999;
+    display: none;
+  }
+  
+  ul li:hover ul.dropdown{
+    display: block;
+  }
+
 
 
 
