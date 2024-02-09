@@ -524,7 +524,7 @@ header {
   margin-top: 240%;
 }
 .nd{
-  margin-top: 175%;
+  margin-top: 170%;
 }
 .st{
   margin-top: 145%;
@@ -532,6 +532,7 @@ header {
 .ll{
   margin-top: 145%;
 }
+
 .pp {
   display: flex;
   justify-content: center;
