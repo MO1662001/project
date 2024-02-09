@@ -359,10 +359,11 @@ header {
   flex-wrap: wrap;
 }
 .zz{
-  padding-top: 20%;
+  padding-top: 10%;
   margin: 10%;
   color: #fff;
 }
+
 
 .card {
   background: #ffffff;
@@ -524,6 +525,12 @@ header {
 }
 .nd{
   margin-top: 175%;
+}
+.st{
+  margin-top: 145%;
+}
+.ll{
+  margin-top: 145%;
 }
 .pp {
   display: flex;
